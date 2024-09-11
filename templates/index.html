@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>ChatBot</title>
+	<link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body>
+	<div class="chatBot">
+		<header>
+			<h2>DigiCon 2.0</h2>
+			<span alt="Close"
+				id="cross"
+				onclick="cancel()">X</span>
+		</header>
+		<ul class="chatbox">
+			<li class="chat-incoming chat">
+				<p>Hey! How can I assist you today?</p>
+			</li>
+		</ul>
+		<div class="chat-input">
+			<textarea rows="0" cols="17" placeholder="Enter a message..."></textarea>
+			<input type="file" id="fileid" name="filename">
+			<button id="uploadBTN">Upload</button>
+			<button id="sendBTN">Send</button>
+		</div>
+
+	</div>
+	<script src="../static/jquery.min.js"></script>
+	<script src="../static/script.js" defer></script>
+</body>
+
+</html>
